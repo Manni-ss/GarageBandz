@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <title>Scream simulator</title>
     <script src="drums.js"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="drums.css">
 </head>
 <body>
 <h1>Pick an emotion, and I'll give u the appropriate yell</h1>
 <table id="emotions" border="double">
     <tr>
-        <td id="e1">Anger <br><img width="200 px" height = "150 px" src= 'emotionImg/anger.jpg'></td>
-        <td id="e2">Angst<br><img width="200 px" height="150 px" src="emotionImg/angst.jpg"></td>
-        <td id="e3">Positively ticked off<br><img width="200 px"src="emotionImg/frsutrated.jpg"></td>
+        <td id="e1"onclick="scream(0)">Anger <br><img width="200 px" height = "150 px" src= 'emotionImg/anger.jpg'></td>
+        <td onclick="scream(1)">Angst<br><img width="200 px" height="150 px" src="emotionImg/angst.jpg"></td>
+        <td onclick="scream(2)">Frustrated<br><img width="200 px"src="emotionImg/frsutrated.jpg"></td>
     </tr>
     <tr>
-        <td id="e4">Happy<br><img width="200 px"src="emotionImg/happy.jpg"></td>
+        <td onclick="scream(3)">Happy<br><img width="200 px"src="emotionImg/happy.jpg"></td>
         <td>Pick Any Emotion</td>
-        <td id="e5">Ecstatic <br><img width = "200 px"src="emotionImg/ecstatic.jpg"></td>
+        <td onclick="scream(4)">Ecstatic <br><img width = "200 px"src="emotionImg/ecstatic.jpg"></td>
     </tr>
     <tr>
-        <td id="e6">Fear <br><img width="200 px"src="emotionImg/fear.jpg"></td>
-        <td id="e7">Mystery screech<br><img width="100 px" height="150 px" src="emotionImg/mystery.png"></td>
-        <td id="e8">Exasperated<br><img width = "200 px" src="emotionImg/exasperated.jpg"></td>
+        <td onclick="scream(5)">Fear <br><img width="200 px"src="emotionImg/fear.jpg"></td>
+        <td onclick="scream(6)">Mystery screech<br><img width="100 px" height="150 px" src="emotionImg/mystery.png"></td>
+        <td onclick="scream(7)">Exasperated<br><img width = "200 px" src="emotionImg/exasperated.jpg"></td>
     </tr>
 
 </table>
