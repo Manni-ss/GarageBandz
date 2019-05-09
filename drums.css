@@ -1,12 +1,12 @@
 
-#body{
+body{
     text-align: center;
-    margin-left: 50%;
+    background-color: teal;
 }
 
-
-
-#emotions{
-    text-align: center;
-
+#emotions {
+    background-color: white;
+    border-color: red;
+    border-width: "3px";
 }
+
