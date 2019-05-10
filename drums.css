@@ -1,12 +1,14 @@
 
 body{
     text-align: center;
-    background-color: teal;
+    background-color: orange;
+    font-size: large;
+    font-family: "Iowan Old Style";
 }
 
 #emotions {
-    background-color: white;
-    border-color: red;
-    border-width: "3px";
+    background-color: orangered;
+    border-color: black;
+    border-width: thick;
 }
 
